@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="contanier">
+            <h1 class="brand">Recipe App</h1>
+            <form>
+                <input type="text" placeholder="Search Your Recipe...">
+                <ion-icon name="search"></ion-icon>
+            </form>
+            <div class="search-result">
+                <div class="item">
+                    <img src="C:\Users\Admin\OneDrive\Desktop\Recipe App\img-1.jpg" alt="">
+                    <div class="flex-contanier">
+                        <h1 clas="title">Blueberry Pancakes</h1>
+                        <a class="view-button" href="https://www.allrecipes.com/recipe/20177/todds-famous-blueberry-pancakes/">View Recipe</a>
+                        
+                    </div>
+                    <p class="item-data">Calories: 700</p>
+                </div>
+
+                <div class="item">
+                    <img src="C:\Users\Admin\OneDrive\Desktop\Recipe App\Homemade Pizza.webp" alt="">
+                    <div class="flex-contanier">
+                        <h1 clas="title">Homemade Pizza</h1>
+                        <a class="view-button" href="https://recipes.timesofindia.com/recipes/pizza/rs56933159.cms">View Recipe</a>
+                    </div>
+                    <p class="item-data">Calories: 300</p>
+                </div>
+
+                <div class="item">
+                    <img src="C:\Users\Admin\OneDrive\Desktop\Recipe App\Seafood-Platter.webp" alt="">
+                    <div class="flex-contanier">
+                        <h1 clas="title">Seafood Platter</h1>
+                        <a class="view-button" href="https://www.recipetineats.com/seafood-platter/">View Recipe</a>
+                    </div>
+                    <p class="item-data">Calories: 150</p>
+                </div>
+
+                <div class="item">
+                    <img src="C:\Users\Admin\OneDrive\Desktop\Recipe App\Garlic-rice.webp" alt="">
+                    <div class="flex-contanier">
+                        <h1 clas="title">Garlic Rice</h1>
+                        <a class="view-button" href="https://www.recipetineats.com/garlic-rice/">View Recipe</a>
+                    </div>
+                    <p class="item-data">Calories: 400</p>
+                </div>
+
+                <div class="item">
+                    <img src="C:\Users\Admin\OneDrive\Desktop\Recipe App\Spaghetti-Sauce-Recipe.jpg" alt="">
+                    <div class="flex-contanier">
+                        <h1 clas="title">Spaghetti Sauce</h1>
+                        <a class="view-button" href="https://thefoodcharlatan.com/easy-spaghetti-sauce/">View Recipe</a>
+                    </div>
+                    <p class="item-data">Calories: 250</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  
+</body>
+</html>
